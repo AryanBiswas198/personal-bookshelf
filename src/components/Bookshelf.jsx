@@ -6,9 +6,9 @@ const Bookshelf = ({ books }) => (
       <p className="text-gray-500 mt-4">No books in your bookshelf.</p>
     ) : (
       books.map((book, index) => (
-        <div key={index} className="bg-white shadow-md rounded-md p-4 m-2 w-64">
-          <h3 className="text-xl font-bold">{book.title}</h3>
-          <p className="text-gray-700">{book.author_name ? book.author_name.join(', ') : 'Unknown Author'}</p>
+        <div key={index} className="border-[.1px] border-violet-400 shadow-md rounded-md p-4 m-2 w-64">
+          <h3 className="text-xl text-gray-100 font-bold">{book.title}</h3>
+          <p className="text-gray-400">{book.author_name ? book.author_name.join(', ') : 'Unknown Author'}</p>
         </div>
       ))
     )}

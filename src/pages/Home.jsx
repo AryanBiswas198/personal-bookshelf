@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
+import "../App.css"
 
 export default () => {
   return (
     <div className="bg-black h-[100vh]">
       <Header />
-      <section className="relative">
+      <section className="relative slide-in-left">
         <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
           <div className="flex flex-col items-center space-y-6 max-w-4xl mx-auto text-center">
             <h2 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">

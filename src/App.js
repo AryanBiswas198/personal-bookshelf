@@ -4,16 +4,18 @@ import BookSearchPage from './pages/BookSearchPage';
 import BookshelfPage from './pages/BookShelfPage';
 import Home from './pages/Home';
 import './index.css';
+import Footer from './pages/Footer';
 
 const App = () => (
-  <Router>
+  <div className='bg-black'>
   {/* <Header /> */}
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path="/booksearchpage" element={<BookSearchPage />} />
       <Route path="/bookshelf" element={<BookshelfPage />} />
     </Routes>
-  </Router>
+    <Footer />
+  </div>
 );
 
 export default App;

@@ -11,6 +11,7 @@ const Header = () => {
       title: "About Us",
       path: "https://drive.google.com/file/d/14rP7Wq2LqzZK_WQBsiBSYTNHbwDx37Xh/view",
     },
+    { title: "My BookShelf", path: "/bookshelf"}
   ];
 
   useEffect(() => {

@@ -49,7 +49,7 @@ const BookSearch = ({ addToBookshelf }) => {
           value={query}
           onChange={handleSearch}
           placeholder="Search for books..."
-          className="w-full py-2 pl-12 pr-4 bg-gray-950 text-white rounded-full outline-none"
+          className="w-full py-2 pl-12 pr-4 bg-gray-950 text-violet-300 rounded-full outline-none"
         />
       </div>
       <div className="flex flex-wrap justify-center items-start mt-10">
