@@ -20,7 +20,7 @@ const BookshelfPage = () => {
       <div className="text-center min-h-screen slide-in-left">
       <h1 className="text-4xl font-bold my-10 tracking-wide">My Bookshelf</h1>
       <Bookshelf books={bookshelf} />
-      <Link to="/" className="text-violet-400 hover:underline mt-10 block">
+      <Link to="/booksearchpage" className="text-violet-400 hover:underline mt-10 block">
         Back to Book Search
       </Link>
     </div>
