@@ -17,7 +17,7 @@ const BookshelfPage = () => {
   return (
     <div className='bg-black text-violet-400'>
       <Header />
-      <div className="text-center min-h-screen slide-in-left">
+      <div className="text-center min-h-[90vh] slide-in-left">
       <h1 className="text-4xl font-bold my-10 tracking-wide">My Bookshelf</h1>
       <Bookshelf books={bookshelf} />
       <Link to="/booksearchpage" className="text-violet-400 hover:underline mt-10 block">
